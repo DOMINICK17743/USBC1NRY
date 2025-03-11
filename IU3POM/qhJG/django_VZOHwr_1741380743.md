@@ -75,7 +75,6 @@ NGINX_PORT=80
 # Email redirections and minio domain settings
 WEB_URL="http://localhost"
 # Gunicorn Workers
-GUNICORN_WORKERS=2
 # Base URLs
 ADMIN_BASE_URL=
 SPACE_BASE_URL=
