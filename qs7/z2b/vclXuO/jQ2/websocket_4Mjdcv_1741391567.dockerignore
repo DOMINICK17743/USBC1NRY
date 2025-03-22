@@ -1,5 +1,4 @@
 .devenv*
-.direnv
 .devcontainer
 .git
 .github
