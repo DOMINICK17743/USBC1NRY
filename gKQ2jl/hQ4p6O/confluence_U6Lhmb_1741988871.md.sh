@@ -10,7 +10,6 @@ if test "${GITHUB_WORKFLOW}"; then
     BUILD_NUMBER="${GITHUB_WORKFLOW}-${GITHUB_RUN_ID}-${GITHUB_RUN_NUMBER}"
     CI_SERVER="Github"
     PULL_REQUEST=$(test "${GITHUB_HEAD_REF}" && echo "true" || echo "false")
-    # JDK_VERSION is set by GH Action
     # RUNNER_OS is set by GH Action
     TRAVIS_REPO_SLUG=${GITHUB_REPOSITORY}
 elif test "${TRAVIS_BRANCH}"; then
