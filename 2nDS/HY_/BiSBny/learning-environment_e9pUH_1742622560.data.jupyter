@@ -28,7 +28,6 @@ RUN mkdir -p build
 WORKDIR /repo/build
 RUN cmake -DPython_TARGET_VERSION=${PYVERSION} -DCMAKE_CXX_COMPILER=`which clang++` ../open_spiel
 RUN make -j12
-ENV PYTHONPATH=${PYTHONPATH}:/repo
 ENV PYTHONPATH=${PYTHONPATH}:/repo/build/python
 # ctest can be disabled for faster builds when tests are not required
 RUN ctest -j12
