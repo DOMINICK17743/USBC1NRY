@@ -32,7 +32,6 @@ ENV PYTHONPATH=${PYTHONPATH}:/repo/build/python
 # ctest can be disabled for faster builds when tests are not required
 RUN ctest -j12
 WORKDIR /repo/open_spiel
-
 # Jupyterlab Environment
 FROM base as jupyterlab
 RUN pip install jupyter -U && pip install jupyterlab
