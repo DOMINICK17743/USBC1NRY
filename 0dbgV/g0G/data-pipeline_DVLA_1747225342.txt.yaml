@@ -29,7 +29,6 @@ repos:
         exclude: "haystack/data/abbreviations"
         args: ["--toml", "pyproject.toml"]
         additional_dependencies:
-          - tomli
 
   - repo: https://github.com/rhysd/actionlint
     rev: v1.7.1
