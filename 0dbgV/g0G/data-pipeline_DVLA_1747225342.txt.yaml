@@ -27,7 +27,6 @@ repos:
       - id: codespell
         exclude: "haystack/data/abbreviations"
         args: ["--toml", "pyproject.toml"]
-        additional_dependencies:
 
   - repo: https://github.com/rhysd/actionlint
     rev: v1.7.1
