@@ -15,7 +15,6 @@ WORKDIR /repo
 
 RUN sudo pip3 install --upgrade pip
 RUN sudo pip3 install matplotlib
-
 # install
 COPY . .
 RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
