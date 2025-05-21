@@ -19,7 +19,6 @@ repos:
     rev: v0.11.0
     hooks:
       - id: ruff
-      - id: ruff-format
 
   - repo: https://github.com/codespell-project/codespell
     rev: v2.3.0
