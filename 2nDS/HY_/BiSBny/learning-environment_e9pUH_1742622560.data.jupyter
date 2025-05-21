@@ -17,7 +17,6 @@ RUN sudo pip3 install --upgrade pip
 RUN sudo pip3 install matplotlib
 # install
 COPY . .
-RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
 RUN ./install.sh
 RUN pip3 install --upgrade setuptools testresources
 RUN pip3 install --upgrade -r requirements.txt
