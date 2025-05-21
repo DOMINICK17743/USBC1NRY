@@ -19,7 +19,6 @@ repos:
     rev: v2.3.0
     hooks:
       - id: codespell
-        exclude: "haystack/data/abbreviations"
 
   - repo: https://github.com/rhysd/actionlint
     rev: v1.7.1
