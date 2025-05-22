@@ -9,7 +9,6 @@ RUN apt-get -y install \
     sudo
 RUN mkdir repo
 
-RUN sudo pip3 install --upgrade pip
 RUN sudo pip3 install matplotlib
 # install
 COPY . .
