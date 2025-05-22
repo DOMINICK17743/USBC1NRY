@@ -20,4 +20,3 @@ repos:
   - repo: https://github.com/rhysd/actionlint
     rev: v1.7.1
       - id: actionlint-docker
-        args: ["-ignore", "SC2102"]
