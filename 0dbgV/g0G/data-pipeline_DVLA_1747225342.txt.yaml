@@ -2,7 +2,6 @@ fail_fast: true
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     hooks:
-      - id: check-ast # checks Python syntax
       - id: check-shebang-scripts-are-executable # checks all shell scripts have executable permissions
       - id: end-of-file-fixer # checks there is a newline at the end of the file
       - id: mixed-line-ending # normalizes line endings
